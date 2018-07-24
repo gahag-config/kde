@@ -1,0 +1,4 @@
+* akonadi-control crashes on startup
+** Solution
+   Add akonadi_control to Applications to be excluded from sessions
+   in the Desktop Session system settings module.
