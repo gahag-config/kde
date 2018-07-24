@@ -2,3 +2,6 @@
 ** Solution
    Add akonadi_control to Applications to be excluded from sessions
    in the Desktop Session system settings module.
+* Touchpad malfunction
+** Solution
+   Unmark disable touchpad while typing in touchpad settings.
