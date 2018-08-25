@@ -1,7 +1,7 @@
 * akonadi-control crashes on startup
-** Solution
-   Add akonadi_control to Applications to be excluded from sessions
-   in the Desktop Session system settings module.
 * Touchpad malfunction
 ** Solution
    Unmark disable touchpad while typing in touchpad settings.
+* Disable windows key from opening the launcher
+** Solution
+   Remove the shortcut (the default is alt+f1) from Application Launcher settings.
