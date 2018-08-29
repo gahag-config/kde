@@ -26,13 +26,13 @@ Color=120,50,40
 Color=192,57,43
 
 [Color2]
-Color=17,209,22
+Color=61,186,103
 
 [Color2Faint]
 Color=23,162,98
 
 [Color2Intense]
-Color=28,220,154
+Color=0,134,0
 
 [Color3]
 Color=246,116,0
@@ -86,7 +86,7 @@ Color=35,38,39
 Color=52,56,58
 
 [ForegroundIntense]
-Color=22,24,25
+Color=144,144,144
 
 [General]
 Blur=false
