@@ -36,7 +36,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][1][Applets][20][Configuration]
-PreloadWeight=97
+PreloadWeight=100
 
 [Containments][1][Applets][20][Configuration][ConfigDialog]
 DialogHeight=718
@@ -82,10 +82,11 @@ PreloadWeight=42
 
 [Containments][1][Applets][24][Configuration][Appearance]
 buttonOrder=close|maximize|minimize|alldesktops
-buttonSize=1
+buttonSize=0.8
 buttonsDynamicWidth=true
 buttonsPosition=UpperRight
 buttonsStandalone=true
+buttonsVerticalCenter=true
 controlButtonsSpacing=3
 doNotHideControlButtons=true
 fitText=2
@@ -102,32 +103,35 @@ widthFineTuning=10
 showForCurrentScreenOnly=true
 
 [Containments][1][Applets][24][Configuration][ConfigDialog]
-DialogHeight=646
-DialogWidth=881
+DialogHeight=1052
+DialogWidth=1920
 
 [Containments][1][Applets][24][Configuration][MouseControl]
 doubleClickMaximizes=false
 
-[Containments][1][Applets][25]
+[Containments][1][Applets][25][Configuration][General]
+lengthPercentage=2
+
+[Containments][1][Applets][27]
 immutability=1
 plugin=org.kde.latte.spacer
 
-[Containments][1][Applets][25][Configuration]
-PreloadWeight=52
+[Containments][1][Applets][27][Configuration]
+PreloadWeight=65
 
-[Containments][1][Applets][25][Configuration][ConfigDialog]
+[Containments][1][Applets][27][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][1][Applets][25][Configuration][General]
-lengthPercentage=10
+[Containments][1][Applets][27][Configuration][General]
+lengthPercentage=2
 
 [Containments][1][Applets][5]
 immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][1][Applets][5][Configuration]
-PreloadWeight=62
+PreloadWeight=77
 
 [Containments][1][Applets][5][Configuration][ConfigDialog]
 DialogHeight=770
@@ -139,7 +143,7 @@ enabledCalendarPlugins=/usr/lib/x86_64-linux-gnu/qt5/plugins/plasmacalendarplugi
 [Containments][1][Applets][5][Configuration][General]
 clock_line_2_height_ratio=0.43
 clock_maxheight=20
-clock_timeformat='<b>'HH:mm'</b>'   dd/MM/yyyy \s
+clock_timeformat='<b>'HH:mm'</b>' • dd/MM/yyyy \s
 widget_show_agenda=false
 widget_show_meteogram=false
 
@@ -164,7 +168,7 @@ PreloadWeight=42
 [Containments][1][General]
 activeIndicator=All
 advanced=true
-appletOrder=25;20;2;22;23;6;5;24
+appletOrder=27;20;2;22;23;6;5;24
 backgroundOnlyOnMaximized=true
 blurEnabled=false
 disablePanelShadowForMaximized=true
@@ -206,7 +210,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][7][Applets][10][Configuration]
-PreloadWeight=62
+PreloadWeight=67
 
 [Containments][7][Applets][11]
 immutability=1
@@ -247,12 +251,19 @@ PreloadWeight=42
 immutability=1
 plugin=org.kde.plasma.battery
 
+[Containments][7][Applets][28]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][7][Applets][28][Configuration]
+PreloadWeight=26
+
 [Containments][7][Applets][8]
 immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][7][Applets][8][Configuration]
-PreloadWeight=42
+PreloadWeight=57
 
 [Containments][7][Applets][9]
 immutability=1
