@@ -1,0 +1,5 @@
+* Packages and widgets
+  - [[https://www.archlinux.org/packages/community/x86_64/latte-dock/][latte-dock]] :: custom panel.
+  - [[https://github.com/ishovkun/taglist][taglist]] :: desktops widget.
+  - Global menu :: application menu widget.
+  - [[https://store.kde.org/p/998910/][Active Window Controls]] :: window controls widget.
