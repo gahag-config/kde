@@ -1,5 +1,6 @@
 [Appearance]
 ColorScheme=gahag
+Font=Hack,9,-1,7,50,0,0,0,0,0
 
 [Cursor Options]
 CursorShape=2
