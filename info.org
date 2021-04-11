@@ -1,7 +1,12 @@
-* akonadi-control crashes on startup
+* =akonadi-control= crashes on startup
 * Touchpad malfunction
 ** Solution
    Unmark disable touchpad while typing in touchpad settings.
 * Disable windows key from opening the launcher
 ** Solution
    Remove the shortcut (the default is alt+f1) from Application Launcher settings.
+* Keyboard layout settings
+  To add a =pt= keyboard:
+  1. Language: English
+  2. Layout: English (US)
+  3. Variant: English (US, intl., with dead keys)
