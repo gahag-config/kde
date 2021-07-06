@@ -4,16 +4,16 @@ switch-to-activity-735f8470-f38f-4f41-89b0-26bcd1f45224=
 [KDE Keyboard Layout Switcher][Global Shortcuts]
 Switch keyboard layout to English (US)=
 Switch keyboard layout to English (US, intl., with dead keys)=
-Switch to Next Keyboard Layout=Meta+Ctrl+Alt+Shift+Z
+Switch to Next Keyboard Layout=Meta+Z
 
 [StandardShortcuts]
 AboutApp=
 AboutKDE=
 Activate Next Tab=Ctrl+PgDown; Ctrl+]
-Activate Previous Tab=Ctrl+[; Ctrl+PgUp
+Activate Previous Tab=Ctrl+PgUp; Ctrl+[
 ActualSize=Ctrl+0
 AddBookmark=Ctrl+B
-Back=Back; Alt+Left
+Back=Alt+Left; Back
 BackwardWord=Ctrl+Left
 Begin=Ctrl+Home
 BeginningOfLine=Home
@@ -21,7 +21,7 @@ Clear=
 Close=Ctrl+Esc; Ctrl+W
 ConfigureNotifications=
 ConfigureToolbars=
-Copy=Ctrl+Ins; Ctrl+C
+Copy=Ctrl+C; Ctrl+Ins
 CreateFolder=F10
 Cut=Shift+Del; Ctrl+X
 DeleteFile=Shift+Del
@@ -40,7 +40,7 @@ FindPrev=Shift+F3
 FitToHeight=
 FitToPage=
 FitToWidth=
-Forward=Forward; Alt+Right
+Forward=Alt+Right; Forward
 ForwardWord=Ctrl+Right
 FullScreen=Ctrl+Shift+F
 Goto=
@@ -76,7 +76,7 @@ Save=Ctrl+S
 SaveAs=Ctrl+Shift+S
 SaveOptions=
 SelectAll=Ctrl+A
-ShowHideHiddenFiles=Alt+.; Ctrl+H
+ShowHideHiddenFiles=Ctrl+H; Alt+.
 ShowMenubar=Ctrl+M
 ShowStatusbar=
 ShowToolbar=
@@ -89,7 +89,7 @@ Undo=Ctrl+Z
 Up=Alt+Up
 WhatsThis=Shift+F1
 Zoom=
-ZoomIn=Ctrl++; Ctrl+=
+ZoomIn=Ctrl+=; Ctrl++
 ZoomOut=Ctrl+-
 
 [kaccess][Global Shortcuts]
@@ -105,7 +105,7 @@ Show System Activity=Ctrl+Esc
 display=Display
 
 [khotkeys][Global Shortcuts]
-{7958b17e-a9fd-4d8b-a0a0-80c4c2867562}=Meta+Ctrl+Alt+Shift+T
+{7958b17e-a9fd-4d8b-a0a0-80c4c2867562}=Meta+T
 {b3d9a1d7-0b16-4ff1-99b9-5e226095fb44}=Meta+W
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=
 
@@ -132,7 +132,7 @@ Reboot Without Confirmation=Ctrl+Alt+Shift+PgUp
 Activate Window Demanding Attention=
 Decrease Opacity=
 Expose=Ctrl+F9
-ExposeAll=Ctrl+F10; Launch (C)
+ExposeAll=Launch (C); Ctrl+F10
 ExposeClass=Ctrl+F7
 Increase Opacity=
 Invert Screen Colors=
@@ -155,7 +155,7 @@ Switch Window Down=Meta+Alt+Down
 Switch Window Left=Meta+Alt+Left
 Switch Window Right=Meta+Alt+Right
 Switch Window Up=Meta+Alt+Up
-Switch to Desktop 1=Ctrl+F1; Meta+Ctrl+Alt+Shift+H
+Switch to Desktop 1=Meta+H; Ctrl+F1
 Switch to Desktop 10=
 Switch to Desktop 11=
 Switch to Desktop 12=
@@ -166,12 +166,12 @@ Switch to Desktop 16=
 Switch to Desktop 17=
 Switch to Desktop 18=
 Switch to Desktop 19=
-Switch to Desktop 2=Ctrl+F2; Meta+Ctrl+Alt+Shift+J
+Switch to Desktop 2=Ctrl+F2; Meta+J
 Switch to Desktop 20=
-Switch to Desktop 3=Meta+Ctrl+Alt+Shift+K; Ctrl+F3
-Switch to Desktop 4=Meta+Ctrl+Alt+Shift+L; Ctrl+F4
-Switch to Desktop 5=Meta+Ctrl+Alt+:; Ctrl+F5
-Switch to Desktop 6=Ctrl+F6; Meta+Ctrl+Alt+Shift+N
+Switch to Desktop 3=Ctrl+F3; Meta+K
+Switch to Desktop 4=Meta+L; Ctrl+F4
+Switch to Desktop 5=Ctrl+F5; Meta+;
+Switch to Desktop 6=Ctrl+F6; Meta+N
 Switch to Desktop 7=
 Switch to Desktop 8=
 Switch to Desktop 9=
@@ -203,7 +203,7 @@ Walk Through Windows of Current Application Alternative=
 Walk Through Windows of Current Application Alternative (Reverse)=
 Window Above Other Windows=
 Window Below Other Windows=
-Window Close=Alt+F4; Meta+Ctrl+Alt+Shift+Q
+Window Close=Meta+Q; Alt+F4
 Window Fullscreen=
 Window Grow Horizontal=
 Window Grow Vertical=
@@ -237,7 +237,7 @@ Window Resize=
 Window Shade=
 Window Shrink Horizontal=
 Window Shrink Vertical=
-Window to Desktop 1=Meta+Ctrl+Alt+Shift+Y
+Window to Desktop 1=Meta+Y
 Window to Desktop 10=
 Window to Desktop 11=
 Window to Desktop 12=
@@ -248,12 +248,12 @@ Window to Desktop 16=
 Window to Desktop 17=
 Window to Desktop 18=
 Window to Desktop 19=
-Window to Desktop 2=Meta+Ctrl+Alt+Shift+U
+Window to Desktop 2=Meta+U
 Window to Desktop 20=
-Window to Desktop 3=Meta+Ctrl+Alt+Shift+I
-Window to Desktop 4=Meta+Ctrl+Alt+Shift+O
-Window to Desktop 5=Meta+Ctrl+Alt+Shift+P
-Window to Desktop 6=Meta+Ctrl+Alt++
+Window to Desktop 3=Meta+I
+Window to Desktop 4=Meta+O
+Window to Desktop 5=Meta+P
+Window to Desktop 6=
 Window to Desktop 7=
 Window to Desktop 8=
 Window to Desktop 9=
@@ -270,7 +270,7 @@ Window to Screen 5=
 Window to Screen 6=
 Window to Screen 7=
 view_actual_size=
-view_zoom_in=Meta+=
+view_zoom_in=
 view_zoom_out=Meta+-
 
 [mediacontrol][Global Shortcuts]
@@ -285,6 +285,10 @@ stopmedia=Media Stop
 
 [org.kde.dolphin.desktop][Global Shortcuts]
 _launch=
+
+[org.kde.krunner.desktop][Global Shortcuts]
+RunClipboard=Alt+Shift+F2
+_launch=Meta+R; Alt+F2
 
 [org.kde.plasma.emojier.desktop][Global Shortcuts]
 _launch=
@@ -319,7 +323,7 @@ activate task manager entry 6=
 activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
-activate widget 3=Alt+F1
+activate widget 3=
 clear-history=
 clipboard_action=
 cycleNextAction=
